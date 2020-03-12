@@ -9,4 +9,4 @@ Steps to reproduce:
    1. Save the file
 1. Watch mode exits with exit code 1 \*
 
-\* Doing the same steps with `src/test-2.ts` doesn't break the watch mode
+\* Doing the same steps with `src/test-2.js` doesn't break the watch mode
