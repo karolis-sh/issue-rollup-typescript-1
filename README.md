@@ -1,0 +1,1 @@
+# issue-rollup-typescript-1
