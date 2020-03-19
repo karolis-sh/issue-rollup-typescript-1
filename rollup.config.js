@@ -5,7 +5,7 @@ export default {
   input: "src/index.js",
   output: { format: "cjs", file: "dist/index.js", sourcemap: true },
   plugins: [
-    typescript()
+    typescript({ noEmitOnError: false })
     // babel({ exclude: "node_modules/**" })
   ]
 };
