@@ -10,3 +10,5 @@ Steps to reproduce:
 1. Watch mode exits with exit code 1 \*
 
 \* Doing the same steps with `src/test-2.js` doesn't break the watch mode
+
+**UPDATE**: `typescript({ noEmitOnError: false })` in `rollup.config.js` is mandatory for watch mode to work.
